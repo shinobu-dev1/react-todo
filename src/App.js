@@ -50,7 +50,7 @@ const App = () => {
       <input type="text" name="" id="" ref={todoNameRef} />
       <button onClick={handleAddTodo}>タスクの追加</button>
       <button onClick={handleClear}>完了したタスクの削除</button>
-      <div>残りのタスク：{todos.filter((todo) => !todo.completed).length}</div>
+      <div>残りのタスク1：{todos.filter((todo) => !todo.completed).length}</div>
     </>
   );
 };
